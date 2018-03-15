@@ -1,7 +1,6 @@
-const zawu = require('..');
+const zawu = require('..')
 
 describe('Test zawu#isValidPhoneNumber', () => {
-
   test('15212345678 should be a valid phone number', () => {
     expect(zawu.isValidPhoneNumber('15212345678')).toBe(true)
   })
@@ -22,5 +21,4 @@ describe('Test zawu#isValidPhoneNumber', () => {
   test('the number should have a valid prefix', () => {
     expect(zawu.isValidPhoneNumber('25212345678')).toBe(false)
   })
-
 })

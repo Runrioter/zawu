@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 const phoneNumber = require('./lib/PhoneNumber')
 const CJK = require('./lib/CJK')
