@@ -24,3 +24,14 @@ if (zawu.isValidPhoneNumber(phoneNumber)) {
 }
 
 ```
+
+### API
+
+* isValidPhoneNumber to validate if the phone number is a good formatted in China.
+  * `#isValidPhoneNumber('15212345678')`
+* isCJKChar to validate if a char is a cjk char
+  * `#isCJKChar('杂')`
+* isCJKString to validate if a string is a cjk string
+  * `#isCJKString('杂物')`
+* isCJKStringWithLength to validate if a string is a cjk string with n length
+  * `#isCJKStringWithLength('杂物' ,2)`
