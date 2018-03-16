@@ -58,7 +58,7 @@ describe('Test zawu#isCJKStringWithLength', () => {
   })
 
   test('isCJKStringWithLength should throws when the second parameter is not a number', () => {
-    expect(() => { zawu.isCJKStringWithLength('杂物', '2') }).toThrow()
+    expect(() => { zawu.isCJKStringWithLength('杂物', '2') }).toThrow(/len must be a number/)
   })
 
   test('杂物 should be not a CJK string with length 3', () => {
